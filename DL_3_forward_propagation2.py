@@ -6,7 +6,7 @@ Created on Thu Jun  4 13:18:38 2020
 """
 
 import sys, os
-sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
+sys.path.append(os.pardir)
 import numpy as np
 import pickle
 from dataset.mnist import load_mnist
