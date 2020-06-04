@@ -50,15 +50,3 @@ for i in range(0, len(x), batch_size):
 
 print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
 
-
-
-
-
-
-
-
-
-
-
-
-
